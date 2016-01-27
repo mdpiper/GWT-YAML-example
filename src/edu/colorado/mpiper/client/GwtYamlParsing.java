@@ -7,6 +7,8 @@ import com.google.gwt.user.client.ui.VerticalPanel;
 
 import edu.colorado.mpiper.client.examples.TestComponentListJSON;
 import edu.colorado.mpiper.client.examples.TestComponentListYAML;
+import edu.colorado.mpiper.client.examples.TestParametersJSON;
+import edu.colorado.mpiper.client.examples.TestParametersYAML;
 
 /**
  * Can the WMT client work with YAML instead of JSON?
@@ -26,5 +28,7 @@ public class GwtYamlParsing implements EntryPoint {
     // The tests.
     contents.add(new TestComponentListJSON());
     contents.add(new TestComponentListYAML());
+    contents.add(new TestParametersJSON());
+    contents.add(new TestParametersYAML());
   }
 }
