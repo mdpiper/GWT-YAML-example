@@ -1,0 +1,52 @@
+{
+  "n_steps": {
+    "description": "Number of time steps", 
+    "value": {
+      "default": 3600, 
+      "units": "-", 
+      "range": {
+        "max": 3153600000, 
+        "min": 1
+      }, 
+      "type": "int"
+    }
+  }, 
+  "dt": {
+    "description": "Model time step", 
+    "value": {
+      "default": 600.0, 
+      "units": "s", 
+      "range": {
+        "max": 31536000.0, 
+        "min": 1.0
+      }, 
+      "type": "float"
+    }
+  }, 
+  "pixel_file": {
+    "description": "Monitored pixel/grid file (outlets)", 
+    "value": {
+      "default": "off", 
+      "files": [
+        "off"
+      ], 
+      "type": "file"
+    }
+  }, 
+  "case_prefix": {
+    "description": "File prefix for the model scenario", 
+    "value": {
+      "default": "case", 
+      "units": "-", 
+      "type": "string"
+    }
+  }, 
+  "site_prefix": {
+    "description": "File prefix for the study site", 
+    "value": {
+      "default": "site", 
+      "units": "-", 
+      "type": "string"
+    }
+  }
+}
