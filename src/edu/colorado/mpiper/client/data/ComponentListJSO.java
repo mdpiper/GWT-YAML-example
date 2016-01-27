@@ -19,5 +19,12 @@ public class ComponentListJSO extends JavaScriptObject {
    */
   public final native JsArrayString getComponents() /*-{
 		return this;
-  }-*/;  
+  }-*/;
+
+  /**
+   * Returns a formatted String for display.
+   */
+  public final String toPrettyString() {
+    return this.getComponents().join(", ");
+  }
 }

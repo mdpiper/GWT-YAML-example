@@ -371,7 +371,7 @@ public class DataTransfer {
           jso = parse(rtxt);
         }
         
-        String jsotxt = jso.getComponents().join(", ");
+        String jsotxt = jso.toPrettyString();
         tester.setResponse(jsotxt);
 
       } else {
