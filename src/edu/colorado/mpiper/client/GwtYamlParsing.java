@@ -8,6 +8,7 @@ import com.google.gwt.user.client.ui.VerticalPanel;
 import edu.colorado.mpiper.client.examples.TestComponentListJSON;
 import edu.colorado.mpiper.client.examples.TestComponentListYAML;
 import edu.colorado.mpiper.client.examples.TestDisplayJSON;
+import edu.colorado.mpiper.client.examples.TestDisplayYAML;
 import edu.colorado.mpiper.client.examples.TestParametersJSON;
 import edu.colorado.mpiper.client.examples.TestParametersYAML;
 
@@ -32,5 +33,6 @@ public class GwtYamlParsing implements EntryPoint {
     contents.add(new TestParametersJSON());
     contents.add(new TestParametersYAML());
     contents.add(new TestDisplayJSON());
+    contents.add(new TestDisplayYAML());
   }
 }
